@@ -1,0 +1,304 @@
+.content {
+    width: 1360px;
+    height: 78px;
+    margin: auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.bg-img {
+    background: url(../images/topfoot-spr.png) no-repeat;
+}
+
+.bg-icon {
+    background: url(../images/comm-spr.png) no-repeat;
+}
+
+.bg-index {
+    background: url(../images/index-spr.png) no-repeat;
+}
+
+.ab {
+    position: absolute;
+}
+
+.rl {
+    position: relative;
+}
+
+#header {
+    width: 100%;
+    height: 360px;
+    background: url(../images/0.jpg) no-repeat -8px 0px/cover;
+    z-index: 1;
+}
+
+#header .details {
+    width: 160px;
+    height: 40px;
+    background: url(../images/topfoot-spr.png) no-repeat -216px -39px;
+    top: 80%;
+    left: 46%;
+    z-index: -2;
+}
+
+#header .Version {
+    width: 263px;
+    height: 23px;
+    /* background: skyblue; */
+    top: 85%;
+    left: 72%;
+    line-height: 23px;
+    color: #f5d185;
+    z-index: -2;
+}
+
+#header .Version p {
+    display: inline-block;
+    color: #888787;
+}
+
+#header .Version a div {
+    width: 90px;
+    height: 20px;
+    border: 2px solid #b88d35;
+    color: #f5d185;
+    line-height: 20px;
+    text-align: center;
+    background: black;
+}
+
+#header .bg {
+    height: 131px;
+    background: url(../images/dark-jianbian-repeatx-0.png);
+}
+
+#header .bg .content .logo {
+    width: 167px;
+    height: 60px;
+    margin-top: 9px;
+}
+
+#header .bg .content .nav {
+    display: flex;
+    width: 675px;
+    height: 100%;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#header .bg .content .nav li p {
+    font-size: 18px;
+    color: white;
+    line-height: 24px;
+}
+
+#header .bg .content .nav li span {
+    font-size: 14px;
+    color: #ccc;
+    line-height: 23px;
+}
+
+#header .bg .content .nav-list {
+    width: 100%;
+    height: 0px;
+    background-color: rgba(0, 0, 0, 0.67);
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+#header .bg .content .nav:hover+.nav-list {
+    animation: 1s down forwards;
+}
+
+#header .bg .content .nav-list:hover {
+    height: 350px;
+}
+
+#header .bg .content .nav-list ul {
+    width: 750px;
+    height: 75%;
+    margin-left: 430px;
+    margin-top: 87px;
+    overflow: hidden;
+}
+
+#header .bg .content .nav-list ul li {
+    float: left;
+    width: 150px;
+    height: 100%;
+    line-height: 30px;
+    text-align: center;
+}
+
+#header .bg .content .nav-list ul li a {
+    display: block;
+    color: white;
+}
+
+#header .bg .content .nav-list ul li a:hover {
+    color: #E99E38;
+}
+
+#header .bg .content .nav-list ul li a .xtb-n {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-position: -380px -64px;
+    vertical-align: -3px;
+}
+
+#header .bg .content .nav-list ul li a .xtb-h {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-position: -346px -84px;
+    vertical-align: -3px;
+}
+
+#header .bg .content .log-wrap {
+    width: 350px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: skyblue; */
+}
+
+#header .bg .content .log-wrap>span {
+    width: 40px;
+    height: 27px;
+    background-position: -376px -38px;
+}
+
+#header .bg .content .log-wrap>span:nth-child(2) {
+    width: 21px;
+    height: 31px;
+    margin-left: 14px;
+    background-position: -298px -83px;
+}
+
+#header .bg .content .log-wrap .user {
+    display: flex;
+    align-items: center;
+}
+
+#header .bg .content .log-wrap .user .lcon {
+    width: 48px;
+    height: 48px;
+    margin-left: 34px;
+    border-radius: 50%;
+    background: url(../images/topfoot-spr.png) no-repeat -216px -117px,
+        url(../images/default.png) no-repeat center/ 44px auto;
+}
+
+#header .bg .content .log-wrap p {
+    margin-left: 12px;
+    font-size: 16px;
+    color: white;
+}
+
+#header .bg .content .log-wrap p a {
+    color: #fff3d0;
+}
+
+#header .bg .content .log-wrap .phone .emg {
+    overflow: hidden;
+    opacity: 0;
+    transition: heght .2s, opacity .5s;
+    top: 142%;
+    left: -93px;
+    width: 210px;
+    height: 0px;
+    background: url(/images/topfoot-spr.png) no-repeat 0px 0px;
+    text-align: center;
+}
+
+#header .bg .content .log-wrap .phone:hover .emg {
+    height: 170px;
+    opacity: 1;
+}
+
+#header .bg .content .log-wrap .phone .emg .img {
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+#header .bg .content .log-wrap .phone .emg p {
+    margin-top: 3px;
+    font-size: 14px;
+    color: #fff3d0;
+}
+
+#header .bg .content .log-wrap .phone .emg .ab {
+    right: 0px;
+    bottom: 0px;
+    width: 40px;
+}
+
+#header .bg .content .log-wrap .user {
+    z-index: 10;
+}
+
+#header .bg .content .log-wrap .user .user-content {
+    overflow: hidden;
+    opacity: 0;
+    transition: heght 1s, opacity .5s;
+    top: -15px;
+    left: 12px;
+    width: 310px;
+    height: 295px;
+    text-align: center;
+    background: rgba(3, 3, 3, 0.603);
+    padding: 105px 23px 0px;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+#header .bg .content .log-wrap .user:hover .user-content {
+    height: 295px;
+    opacity: 1;
+}
+
+#header .bg .content .log-wrap .user .user-content p {
+    color: #848383;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+#header .bg .content .log-wrap .user .user-content h4 {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    color: white;
+    font-size: 18px;
+    line-height: 45px;
+    text-align: center;
+    background-color: black;
+}
+
+#header .bg .content .log-wrap .user .user-content h4 .right {
+    display: inline-block;
+    width: 17px;
+    height: 12px;
+    background: url(../images/comm-spr.png)no-repeat -211px -125px;
+}
+
+#header .bg .content .log-wrap .user .user-content h4:hover .right {
+    animation: right 1s infinite;
+}

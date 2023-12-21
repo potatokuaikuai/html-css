@@ -1,0 +1,690 @@
+#main .swiper {
+    margin-top: 40px;
+}
+
+#main .swiper .content {
+    height: 380px;
+}
+
+#main .swiper .content .warp {
+    width: 820px;
+    height: 380px;
+    overflow: hidden;
+}
+
+#main .swiper .content .warp .img {
+    width: 100%;
+    height: 340px;
+}
+
+#main .swiper .content .warp .img ul {
+    width: 600%;
+    height: 340px;
+    position: relative;
+    left: 0%;
+    transition: .5s;
+}
+
+#main .swiper .content .warp .img ul img {
+    width: 820px;
+    height: 340px;
+    float: left;
+}
+
+#main .swiper .content .warp .tab ul {
+    width: 100%;
+    height: 40px;
+}
+
+#main .swiper .content .warp .tab ul li {
+    float: left;
+    width: 20%;
+    height: 100%;
+    line-height: 38px;
+    text-align: center;
+    background-color: #e3e2e2;
+}
+
+#main .swiper .content .warp .tab ul .active {
+    height: 38px;
+    background-color: rgb(247, 246, 246);
+    border-bottom: 2px solid #cea861;
+}
+
+#main .swiper .content .right-list {
+    width: 500px;
+    height: 380px;
+    top: 0;
+    right: 0;
+}
+
+#main .swiper .content .right-list .nav-list {
+    width: 100%;
+    height: 36px;
+    display: flex;
+    font-size: 18px;
+    line-height: 27px;
+    justify-content: space-between;
+    border-bottom: 1px #e0e2e2 solid;
+
+}
+
+#main .swiper .content .right-list .nav-list li i {
+    width: 40px;
+    height: 7px;
+    top: 32px;
+    left: -1px;
+    display: inline-block;
+    background-position: -272px 0px;
+    opacity: 0;
+}
+
+#main .swiper .content .right-list .nav-list li:hover {
+    font-weight: 600;
+    color: #1da6ba;
+    transition: .2s;
+}
+
+#main .swiper .content .right-list .nav-list li:hover i {
+    opacity: 1;
+    transition: .2s;
+}
+
+#main .swiper .content .right-list h3 {
+    width: 100%;
+    height: 58px;
+    font-size: 20px;
+    line-height: 58px;
+    text-align: center;
+    background: url(../images/index-spr.png) no-repeat 0px -458px;
+}
+
+#main .swiper .content .right-list h3 a {
+    color: #1da6ba;
+}
+
+#main .swiper .content .right-list h3 a:hover {
+    color: #bb9a6c;
+}
+
+#main .swiper .content .right-list .list li {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px #e0e2e2 solid;
+}
+
+#main .swiper .content .right-list .list li i {
+    width: 36px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 20px;
+    display: inline-block;
+    color: #6388c5;
+    border: 1px #97afc5 solid;
+}
+
+#main .swiper .content .right-list .list li>.video {
+    color: #e9852d;
+    border: 1px #e9852d solid;
+}
+
+#main .swiper .content .right-list .list li:hover .match+span>a {
+    color: #6388c5;
+}
+
+#main .swiper .content .right-list .list li:hover .video+span>a {
+    color: #e9852d;
+}
+
+#main .swiper .content .right-list .list a li {
+    width: 100%;
+    height: 40px;
+    color: #676767;
+    background-color: #e3e2e2;
+    text-align: center;
+}
+
+#main .swiper .content .right-list .list a li:hover {
+    background-color: #dad8d8;
+    border-radius: 4px;
+}
+
+#main .swiper .content .right-list .list a li span {
+    color: #7ea1a6;
+}
+
+#main .swiper .content .right-list .list a li i {
+    display: inline-block;
+    border: none;
+    width: 17px;
+    height: 12px;
+    background: url(../images/comm-spr.png)no-repeat -211px -125px;
+}
+
+#main .swiper .content .right-list .list a li:hover i {
+    animation: right 1s infinite;
+}
+
+/* 热门活动 */
+
+#main .hot {
+    height: 722px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+#main .hot .content {
+    height: 100%;
+    height: 642px;
+    /* background-color: yellow; */
+}
+
+#main .hot .content .hot-top {
+    height: 336px;
+    /* background-color: salmon; */
+}
+
+#main .hot .content .hot-top .hot-top-left {
+    width: 820px;
+    height: 100%;
+    /* background-color: rgb(124, 240, 186); */
+}
+
+#main .hot .content .hot-top .hot-top-left .hot-title {
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    /* background: greenyellow; */
+
+}
+
+#main .hot .content .hot-top .hot-top-left .hot-title h3 {
+    font-size: 24px;
+    border-left: 3px solid #1da6ba;
+    padding-left: 10px;
+    margin-right: 25px;
+    font-weight: 400;
+}
+
+#main .hot .content .hot-top .hot-top-left .hot-title ul {
+    width: 686px;
+    border-bottom: 1px #e0e2e2 solid;
+}
+
+#main .hot .content .hot-top .hot-top-left .hot-title ul li {
+    float: left;
+    font-size: 16px;
+    margin-right: -26px;
+}
+
+#main .hot .content .hot-top .hot-top-left .hot-title ul .li:hover::after {
+    opacity: 1;
+    transition: .3s;
+}
+
+#main .hot .content .hot-top .hot-top-left .hot-title ul li:hover {
+    color: #1da6ba;
+
+}
+
+#main .hot .content .hot-top .hot-top-left .hot-title ul .li::after {
+    content: " ";
+    position: relative;
+    top: 13px;
+    left: -65px;
+    opacity: 0;
+    display: inline-block;
+    width: 65px;
+    height: 8px;
+    background: url(../images/comm-spr.png) -261px 0px;
+}
+
+#main .hot .content .hot-top .hot-top-left .hot-title ul li:last-child {
+    float: right;
+    font-size: 14px;
+    position: relative;
+    right: 28px;
+}
+
+#main .hot .content .hot-top .hot-top-left .hot-title ul li i {
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    background-position: -213px -126px;
+}
+
+#main .hot .content .hot-top .hot-top-left .hot-title ul li:last-child:hover i {
+    animation: right .8s infinite;
+}
+
+#main .hot .content .hot-top .hot-top-left .hot-list {
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+#main .hot .content .hot-top .hot-top-left .hot-list li {
+    width: 193px;
+    height: 100%;
+    background-color: #fefefe;
+}
+
+#main .hot .content .hot-top .hot-top-left .hot-list li:hover {
+    animation: up .3s forwards;
+}
+
+#main .hot .content .hot-top .hot-top-left .hot-list li>p {
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+#main .hot .content .hot-top .hot-top-left .hot-list li:hover>p {
+    color: #1da6ba;
+}
+
+#main .hot .content .hot-top .hot-top-left .hot-list li>a {
+    margin-left: 10px;
+    color: #1da6ba;
+}
+
+#main .hot .content .hot-top .hot-top-left .hot-list li .hover {
+    width: 193px;
+    height: 163px;
+    position: relative;
+    top: -274px;
+    left: 0px;
+    background-position: 2px -249px;
+    background-color: rgba(15, 15, 15, 0.795);
+    text-align: center;
+    padding-top: 44px;
+    color: #9d9c9c;
+    opacity: 0;
+}
+
+#main .hot .content .hot-top .hot-top-left .hot-list li:hover .hover {
+    opacity: 1;
+}
+
+#main .hot .content .hot-top .hot-top-left .hot-list li .hover h3 {
+    color: #cdbe91;
+    margin-bottom: 10px;
+}
+
+#main .hot .content .hot-top .hot-top-left .hot-list li .hover p {
+    line-height: 22px;
+}
+
+#main .hot .content .hot-top .hot-top-right {
+    width: 496px;
+    height: 336px;
+    position: relative;
+    top: -336px;
+}
+
+#main .hot .content .hot-top .hot-top-right .top {
+    width: 100%;
+    height: 168px;
+}
+
+#main .hot .content .hot-top .hot-top-right .top li {
+    float: left;
+    width: 120px;
+    height: 77px;
+    background-position: -192px -316px;
+    color: white;
+    font-weight: 700;
+    line-height: 77px;
+    text-align: center;
+}
+
+#main .hot .content .hot-top .hot-top-right .top li:nth-child(1) {
+    width: 366px;
+    height: 100%;
+}
+
+#main .hot .content .hot-top .hot-top-right .top li:nth-child(2) {
+    margin: 0px 0px 14px 10px;
+}
+
+#main .hot .content .hot-top .hot-top-right .top li .on {
+    display: none;
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+}
+
+#main .hot .content .hot-top .hot-top-right .top li:hover .on {
+    display: block;
+}
+
+#main .hot .content .hot-top .hot-top-right .top li .on a {
+    width: 50%;
+    height: 100%;
+    border-left: 1px solid #ccc;
+    box-sizing: border-box;
+    line-height: 30px;
+    text-align: center;
+}
+
+#main .hot .content .hot-top .hot-top-right .top li .on a:hover {
+    color: #1da6ba;
+}
+
+#main .hot .content .hot-top .hot-top-right .top li .on a i {
+    display: block;
+    width: 22px;
+    height: 23px;
+    background-color: white;
+    margin: 18px 0px 0px 18px;
+    background-position: -243px -71px;
+}
+
+#main .hot .content .hot-top .hot-top-right .top li .on a:hover i {
+    animation: scale 1s;
+}
+
+#main .hot .content .hot-top .hot-top-right .top li .on a .two {
+    background-position: -283px -98px;
+}
+
+#main .hot .content .hot-top .hot-top-right .top li:nth-child(3) {
+    margin: 0px 0px 0px 10px;
+}
+
+#main .hot .content .hot-top .hot-top-right .bottom {
+    width: 100%;
+    height: 153px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+#main .hot .content .hot-top .hot-top-right .bottom li {
+    width: 113px;
+    height: 69px;
+    background-color: white;
+    line-height: 69px;
+    text-align: center;
+
+}
+
+#main .hot .content .hot-top .hot-top-right .bottom li i {
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background-position: -316px -10px;
+    margin: 0px 0px -7px 7px;
+}
+
+#main .hot .content .hot-top .hot-top-right .bottom li:nth-child(2) i {
+    background-position: -219px -71px;
+}
+
+#main .hot .content .hot-top .hot-top-right .bottom li:nth-child(3) i {
+    background-position: -343px -10px;
+}
+
+#main .hot .content .hot-top .hot-top-right .bottom li:nth-child(4) i {
+    background-position: -193px -71px;
+}
+
+#main .hot .content .hot-top .hot-top-right .bottom li:nth-child(5) i {
+    background-position: -281px -124px;
+}
+
+#main .hot .content .hot-top .hot-top-right .bottom li:nth-child(6) i {
+    background-position: -371px -10px;
+}
+
+#main .hot .content .hot-top .hot-top-right .bottom li:nth-child(7) i {
+    background-position: -274px -45px;
+}
+
+#main .hot .content .hot-top .hot-top-right .bottom li:nth-child(8) i {
+    background-position: -193px -45px;
+}
+
+#main .hot .content .hot-top .hot-top-right .bottom li:hover {
+    color: #1da6ba;
+}
+
+#main .hot .content .hot-top .hot-top-right .bottom li:hover i {
+    animation: scale 1s;
+}
+
+#main .hot .content .hot-bottom {
+    margin-top: 50px;
+    height: 256px;
+    width: 100%;
+}
+
+#main .hot .content .hot-bottom .left {
+    width: 402px;
+    height: 256px;
+    background: url(../images/left) no-repeat;
+}
+
+#main .hot .content .hot-bottom .left>span,
+#main .hot .content .hot-bottom .content>span {
+    left: 10px;
+    top: 10px;
+    width: 70px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: black;
+    color: #cdbe91;
+
+}
+
+#main .hot .content .hot-bottom .left .left-bottom,
+#main .hot .content .hot-bottom .content .left-bottom {
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 133px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    background: url(../images/pic-mask-0.png) repeat;
+}
+
+#main .hot .content .hot-bottom .left .left-bottom>p,
+#main .hot .content .hot-bottom .content .left-bottom>p {
+    color: #cdbe91;
+    margin-top: 82px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#main .hot .content .hot-bottom .left .left-bottom>span,
+#main .hot .content .hot-bottom .content .left-bottom>span {
+    color: #cfcfcf;
+}
+
+#main .hot .content .hot-bottom .left .left-hover {
+    width: 100%;
+    height: 100%;
+    background: url(../images/dark70-bg-repeat.png) repeat;
+    display: none;
+    transform: translateY(8px);
+}
+
+#main .hot .content .hot-bottom .left:hover .left-hover {
+    display: block;
+    animation: totop .5s forwards;
+}
+
+#main .hot .content .hot-bottom .left .left-hover>i {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-position: 3px 4px;
+}
+
+#main .hot .content .hot-bottom .left .left-hover>p {
+    color: #cdbe91;
+    font-size: 18px;
+    width: 365px;
+    height: 55px;
+    left: 32px;
+    top: 24px;
+}
+
+#main .hot .content .hot-bottom .left .left-hover .hover-bottom {
+    left: 26px;
+    bottom: 14px;
+    color: #ffdb8b;
+    width: 151px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 16px;
+    background-position: -401px -179px;
+}
+
+#main .hot .content .hot-bottom .left .left-hover .hover-bottom>i {
+    display: inline-block;
+    width: 17px;
+    height: 12px;
+    background: url(../images/comm-spr.png)no-repeat -360px -97px;
+}
+
+#main .hot .content .hot-bottom .left .left-hover .hover-bottom:hover>i {
+    animation: right 1s infinite;
+}
+
+#main .hot .content .hot-bottom .content {
+    width: 402px;
+    height: 256px;
+    margin-left: 16px;
+    background: url(../images/content) no-repeat;
+}
+
+#main .hot .content .hot-bottom .right {
+    width: 497px;
+    height: 256px;
+    right: 0px;
+    top: 0px;
+}
+
+#main .hot .content .hot-bottom .right .right-lf {
+    width: 240px;
+    height: 100%;
+}
+
+#main .hot .content .hot-bottom .right .right-lf .lf-top {
+    width: 100%;
+    height: 120px;
+    background: url(../images/ri1);
+}
+
+#main .hot .content .hot-bottom .right .right-lf .lf-bottom {
+    width: 100%;
+    height: 120px;
+    background: url(../images/ri2);
+    margin-top: 16px;
+}
+
+#main .hot .content .hot-bottom .right .right-ri {
+    width: 242px;
+    height: 100%;
+
+}
+
+#main .hot .content .hot-bottom .right .right-ri .ri-top {
+    width: 100%;
+    height: 180px;
+    background: url(../images/ri3);
+}
+
+#main .hot .content .hot-bottom .right .right-ri .ri-top>i {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    background-position: -399px 3px;
+    opacity: 0;
+    transition: .5s;
+}
+
+#main .hot .content .hot-bottom .right .right-ri .ri-top:hover>i {
+    opacity: 1;
+}
+
+#main .hot .content .hot-bottom .right .right-ri .ri-top .ri-top-hover {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 55px;
+    line-height: 25px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.737);
+    display: none;
+
+}
+
+#main .hot .content .hot-bottom .right .right-ri .ri-top:hover .ri-top-hover {
+    display: block;
+    transition: 1s;
+}
+
+#main .hot .content .hot-bottom .right .right-ri .ri-top .ri-top-hover h3 {
+    color: #ffdb8b;
+}
+
+#main .hot .content .hot-bottom .right .right-ri .ri-top .ri-top-hover p {
+    color: #cfcfcf;
+}
+
+#main .hot .content .hot-bottom .right .right-ri .ri-bottom {
+    width: 100%;
+    height: 60px;
+    margin-top: 16px;
+    background-position: -191px -251px;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+
+}
+
+#main .hot .content .hot-bottom .right .right-ri .ri-bottom i {
+    display: inline-block;
+    margin-right: 0px;
+    width: 17px;
+    height: 12px;
+    background: url(../images/comm-spr.png)no-repeat -340px -97px;
+}
+
+#main .hot .content .hot-bottom .right .right-ri .ri-bottom:hover i {
+    animation: right 1s infinite;
+}
+
+#main .hot .content .hot-bottom .right .right-ri .ri-bottom b:nth-child(1) {
+    display: inline-block;
+    width: 22px;
+    height: 12px;
+    background-position: -529px -225px;
+}
+
+#main .hot .content .hot-bottom .right .right-ri .ri-bottom i:last-child {
+    display: inline-block;
+    width: 22px;
+    height: 12px;
+    background: url(../images/index-spr.png) no-repeat -506px -223px;
+}
+
+#main .videos {
+    width: 100%;
+    height: 594px;
+    background-color: green;
+}
